@@ -1,2 +1,2 @@
 #NAME, TYPE, CONTENT
-hiifong,CNAME,cname.vercel-dns.com
+i,CNAME,cname.vercel-dns.com
