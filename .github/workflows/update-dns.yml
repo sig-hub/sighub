@@ -1,0 +1,24 @@
+name: Update DNS
+
+# 僅作用於main分支push時
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  depoly:
+    runs-on: ubuntu-latest
+    steps:
+      # 將目前repository的內容checkout下來
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 5
+
+      # 執行多行腳本，此處將前面設定的Secrets設為環境變數並運行前面定義好的兩個腳本
+      - name: Run a multi-line script
+        run: |
+          export CF_API_EMAIL=${{ secrets.CF_API_EMAIL }}
+          export CF_API_KEY=${{ secrets.CF_API_KEY }}
+          bash install-flarectl.sh
+          bash depoly.sh
