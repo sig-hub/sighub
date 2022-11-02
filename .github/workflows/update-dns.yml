@@ -3,7 +3,7 @@ name: Update DNS
 # 僅作用於main分支push時
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   depoly:
