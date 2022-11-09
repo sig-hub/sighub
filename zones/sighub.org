@@ -1,2 +1,3 @@
 #NAME, TYPE, CONTENT  
-i,CNAME,i.hiifong.cc
+i,CNAME,i.hiifong.cc  
+web,CNAME,web-1304897148.cos.ap-hongkong.myqcloud.com
