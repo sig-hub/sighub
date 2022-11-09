@@ -1,4 +1,4 @@
 #NAME, TYPE, CONTENT  
 i,CNAME,i.hiifong.cc  
-web,CNAME,web-1304897148.cos.ap-hongkong.myqcloud.com
+web,CNAME,web-1304897148.cos-website.ap-hongkong.myqcloud.com
 _4764B98B03D5AE94233EC9B2DAE30607.web,CNAME,DE74882573965DC02FA0EB927C7006AD.FA80F1D17DE5C4476C4499288B26390D.TTDvIRkq0p.trust-provider.com
